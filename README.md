@@ -1,6 +1,8 @@
 # obsession-tracker
 A desktop app used to track your obsessive thoughts or intrusive thoughts
 
+# User's Manual
+
 # Note
 This software is specially dedicated to people suffering from OCD to maintain an idea about their thoughts and then share it with their doctor or keep it with themselves to get an idea about their obsessions.
 
@@ -11,6 +13,7 @@ But people without OCD can also use it if the app fits their purpose.
 - A 64-bit computer running Windows, Mac or Linux
 
 Download JDK here:
+
 Windows: https://download.oracle.com/java/17/archive/jdk-17.0.7_windows-x64_bin.exe
 
 Mac OS x64: https://download.oracle.com/java/17/archive/jdk-17.0.7_macos-x64_bin.dmg
@@ -67,4 +70,50 @@ Medications are one way to reduce the symptoms but ERP is the only effective way
 This app can be used to track your obsessions or intrusive thoughts and then view them later. It will give you a better idea about your thought patterns and ways to manage your obsessions and compulsions.
 
 # How to Download
+
+Before downloading the app, you need to have JDK 17 installed.
+
+Go to the releases section of this repository.
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/a338d77b-b5c5-4914-9080-6f8dc75830ba)
+
+Download the latest jar file release.
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/a0d0ea1a-3748-499b-b4c4-cb998d6a6826)
+
+
+Run the downloaded jar file to run the app
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/c3c408a6-615f-44b1-aa56-f444f1300398)
+
+# Setup
+
+Before you start using the app, you need to setup the databases, to setup the database, open the app and click on Setup button
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/07812fc9-e5b8-4f40-800e-4bf98936920b)
+
+Then you'll get a message saying that the setup is complete and now you can start using the app
+
+# Entering the thought data into the database
+
+Click on New Obsession Button in the menu
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/32a591dc-7b35-4e09-a6c6-9c7047f7d158)
+
+Now enter the relevant data and hit submit
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/f3ca7b16-8f12-447e-9040-3b9aaa8e29de)
+
+
+# Viewing the entered thoughts
+
+To view the data that you've entered, click on Fetch All Records button in the main menu
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/1082ada2-d006-4983-8cb5-688a0ac3f28e)
+
+Then it'll show the data that you've entered
+
+![image](https://github.com/SpaciousCoder78/obsession-tracker/assets/88923986/af1bf2e7-f2f5-4811-aa8d-6309b1683519)
+
+
 

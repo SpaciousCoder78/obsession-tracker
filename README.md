@@ -12,9 +12,13 @@ But people without OCD can also use it if the app fits their purpose.
 
 Download JDK here:
 Windows: https://download.oracle.com/java/17/archive/jdk-17.0.7_windows-x64_bin.exe
+
 Mac OS x64: https://download.oracle.com/java/17/archive/jdk-17.0.7_macos-x64_bin.dmg
+
 Mac OS arm64: https://download.oracle.com/java/17/archive/jdk-17.0.7_macos-aarch64_bin.dmg
+
 Linux Deb Package: https://download.oracle.com/java/17/archive/jdk-17.0.7_linux-x64_bin.deb
+
 Linux RPM Package: https://download.oracle.com/java/17/archive/jdk-17.0.7_linux-x64_bin.rpm
 
 # What is OCD?

@@ -18,6 +18,8 @@ public class menu {
     private JButton setup;
     private JButton fetchallrecords;
 
+    private JButton info;
+
     //function for setting up the database
     public static void setitup() {
         Connection conn = null;
@@ -69,6 +71,7 @@ public class menu {
         newobsession = new JButton("New Obsession");
         setup = new JButton("Setup");
         fetchallrecords = new JButton("Fetch All Records");
+        info= new JButton("Info");
 
         // Add the components to the frame
         frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
@@ -80,6 +83,8 @@ public class menu {
         frame.add(setup);
         frame.add(Box.createVerticalStrut(10));
         frame.add(fetchallrecords);
+        frame.add(Box.createVerticalStrut(10));
+        frame.add(info);
 
         frame.add(Box.createVerticalGlue());
 
@@ -112,6 +117,29 @@ public class menu {
 
         fetchallrecords.addActionListener(fetxch);
 
+        //action listener for info
+
+        ActionListener bc = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame z = new JFrame("Info");
+                JLabel l2= new JLabel("Obsession Tracker v1.1.1 ");
+                JLabel l3= new JLabel("Created by SpaciousCoder78 @ GitHub ");
+                z.add(l2);
+                z.add(l3);
+                z.setLayout(new FlowLayout());
+                z.setVisible(true);
+                z.setSize(400,400);
+
+
+            }
+        };
+
+        info.addActionListener(bc);
+
+
+
+
 
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -128,4 +156,6 @@ public class menu {
         });
     }
 }
+
+
 
